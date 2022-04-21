@@ -1,13 +1,13 @@
 function sum(a, b) {
-  console.log('function');
-  return a + b;
+	console.log('function');
+	return a + b;
 }
 const result = sum(1, 2);
 console.log(result);
 
 // 사용예제2
 function fullName(firstName, lastName) {
-  return `${firstName} ${lastName} 🤚`;
+	return `${firstName} ${lastName} 🤚`;
 }
 let lastName = '김';
 let firstName = '지수';

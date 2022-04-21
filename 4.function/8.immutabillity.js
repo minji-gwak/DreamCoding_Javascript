@@ -3,21 +3,21 @@
 // 원시값 - 값에 의한 복사
 // 객체값 - 참조에 의한 복사 (메모리주소)
 function diaplay(num) {
-  num = 5; // ❌
-  console.log(num);
+	num = 5; // ❌
+	console.log(num);
 }
 const value = 4;
 diaplay(value);
 console.log(value);
 
 function displayObj(obj) {
-  obj.name = 'Bob'; // ❌❌❌❌❌❌ 외부로부터 주어진 인자(오브젝트)를 내부에서 변경 ❌
-  console.log(obj);
+	obj.name = 'Bob'; // ❌❌❌❌❌❌ 외부로부터 주어진 인자(오브젝트)를 내부에서 변경 ❌
+	console.log(obj);
 }
 const minji = { name: 'minji' };
 displayObj(minji);
 
 function changeName(obj) {
-  // 이름부터 변경하는 느낌을 주도록!
-  return { ...obj, name: 'Bob' }; // 반환할때는 새로운 오브젝트 만들기!
+	// 이름부터 변경하는 느낌을 주도록!
+	return { ...obj, name: 'Bob' }; // 반환할때는 새로운 오브젝트 만들기!
 }

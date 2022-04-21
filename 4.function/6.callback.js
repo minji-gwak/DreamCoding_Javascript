@@ -7,12 +7,12 @@ const multiply = (a, b) => a * b;
 // 함수를 가리키고 있는 함수의 레퍼런스(참조값)가 전달된다.
 // 그래서 함수는 고차함수 안에서 필요한 순간에 호출이 나중에 됨.
 function calculator(a, b, action) {
-  if (a < 0 || b < 0) {
-    return;
-  }
-  let result = action(a, b);
-  console.log(result);
-  return result;
+	if (a < 0 || b < 0) {
+		return;
+	}
+	let result = action(a, b);
+	console.log(result);
+	return result;
 }
 
 calculator(-1, -2, add); // 호출하지 않고 함수가 가지고 있는 주소를 전달한다.
