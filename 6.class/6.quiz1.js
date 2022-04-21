@@ -3,20 +3,20 @@
 // Counter 클래스 만들기
 
 class Counter {
-  #value;
-  constructor(startValue) {
-    if (startValue > 0 || isNaN(startValue)) {
-      this.#value = 0;
-    } else {
-      this.#value = startValue;
-    }
-  }
-  get value() {
-    return this.#value;
-  }
-  increment() {
-    console.log(++this.#value);
-  }
+	#value;
+	constructor(startValue) {
+		if (startValue > 0 || isNaN(startValue)) {
+			this.#value = 0;
+		} else {
+			this.#value = startValue;
+		}
+	}
+	get value() {
+		return this.#value;
+	}
+	increment() {
+		console.log(++this.#value);
+	}
 }
 
 const counter = new Counter(0);
