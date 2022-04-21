@@ -4,10 +4,10 @@
 // key - 문자, 숫자, 문자열, 심볼
 // value - 원시값, 객체 (함수)
 let apple = {
-  name: 'apple',
-  'hello-bye': '🤚', // 특수한 경우가 아니라면 작성 camelCase로 작성
-  0: 1,
-  ['hello-bye1']: '🤚',
+	name: 'apple',
+	'hello-bye': '🤚', // 특수한 경우가 아니라면 작성 camelCase로 작성
+	0: 1,
+	['hello-bye1']: '🤚',
 };
 
 // 속성, 데이터에 접근하기 위해서는
