@@ -16,10 +16,10 @@ console.log(false === 0);
 console.clear();
 
 const obj1 = {
-  name: 'js',
+	name: 'js',
 };
 const obj2 = {
-  name: 'js',
+	name: 'js',
 };
 
 console.log(obj1 == obj2); // 다른 메모리 주소!
