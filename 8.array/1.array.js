@@ -18,8 +18,8 @@ console.log(array);
 // 자바스크립트의 배열은 일반적인 배열의 동작을 흉내낸 특수한 객체다!
 // 이걸 보완하기 위해서 타입이 정해져 있는 타입 배열이 있음 (Typed Collections)
 array = Array.from({
-  0: '안',
-  1: '녕',
-  length: 2,
+	0: '안',
+	1: '녕',
+	length: 2,
 });
 console.log(array);

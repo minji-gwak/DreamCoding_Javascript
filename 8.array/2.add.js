@@ -8,7 +8,7 @@ console.log(fruits[3]);
 console.log(fruits.length);
 
 for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
+	console.log(fruits[i]);
 }
 // const fruits = ['🍌', '🍎', '🍇', '🍑'];
 // 추가, 삭제 - 좋지 않은 방식 💩

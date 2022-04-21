@@ -3,7 +3,7 @@
 // input: ['🍌', '🍓', '🍇', '🍓']
 // output: [ '🍌', '🥝', '🍇', '🥝' ]
 function replace(array, from, to) {
-  return array.map((item) => (item === from ? to : item));
+	return array.map((item) => (item === from ? to : item));
 }
 
 const array = ['🍌', '🍓', '🍇', '🍓'];
@@ -16,8 +16,8 @@ console.log(result);
 // input: [ '🍌', '🥝', '🍇', '🥝' ], '🥝'
 // output: 2
 function count(array, item) {
-  return array.filter((value) => value === item).length;
-  /*  return array.reduce((count, value) => {
+	return array.filter((value) => value === item).length;
+	/*  return array.reduce((count, value) => {
       if (value === item) {
         count++;
       }
@@ -33,7 +33,7 @@ console.log(count(['🍌', '🥝', '🍇', '🥝'], '🥝'));
 // output: [ '🍌', '🍇' ]
 
 function match(input, search) {
-  return input.filter((item) => search.includes(item));
+	return input.filter((item) => search.includes(item));
 }
 console.log(match(['🍌', '🥝', '🍇'], ['🍌', '🍓', '🍇', '🍓']));
 
@@ -42,6 +42,6 @@ console.log(match(['🍌', '🥝', '🍇'], ['🍌', '🍓', '🍇', '🍓']));
 const nums = [3, 16, 5, 25, 4, 34, 21];
 
 const result2 = nums
-  .filter((num) => num > 5) //
-  .reduce((avg, num) => avg + num / array.length, 0);
+	.filter((num) => num > 5) //
+	.reduce((avg, num) => avg + num / array.length, 0);
 console.log(result2);

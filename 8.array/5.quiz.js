@@ -3,13 +3,13 @@
 // input: ['🍌', '🍓', '🍇', '🍓']
 // output: [ '🍌', '🥝', '🍇', '🥝' ]
 function replace(array) {
-  const replaced = Array.from(array);
-  for (let i = 0; i < replaced.length; i++) {
-    if (replaced[i] === '🍓') {
-      replaced[i] = '🥝';
-    }
-  }
-  return replaced;
+	const replaced = Array.from(array);
+	for (let i = 0; i < replaced.length; i++) {
+		if (replaced[i] === '🍓') {
+			replaced[i] = '🥝';
+		}
+	}
+	return replaced;
 }
 console.log(replace(['🍌', '🍓', '🍇', '🍓']));
 
@@ -19,13 +19,13 @@ console.log(replace(['🍌', '🍓', '🍇', '🍓']));
 // input: [ '🍌', '🥝', '🍇', '🥝' ], '🥝'
 // output: 2
 function count(array, item) {
-  let counter = 0;
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === item) {
-      counter++;
-    }
-  }
-  return counter;
+	let counter = 0;
+	for (let i = 0; i < array.length; i++) {
+		if (array[i] === item) {
+			counter++;
+		}
+	}
+	return counter;
 }
 console.log(count(['🍌', '🥝', '🍇', '🥝'], '🥝'));
 
@@ -34,12 +34,12 @@ console.log(count(['🍌', '🥝', '🍇', '🥝'], '🥝'));
 // input: ['🍌', '🥝', '🍇'],  ['🍌', '🍓', '🍇', '🍓']
 // output: [ '🍌', '🍇' ]
 function match(input, search) {
-  const result = [];
-  for (let i = 0; i < input.length; i++) {
-    if (search.includes(input[i])) {
-      result.push(input[i]);
-    }
-  }
-  return result;
+	const result = [];
+	for (let i = 0; i < input.length; i++) {
+		if (search.includes(input[i])) {
+			result.push(input[i]);
+		}
+	}
+	return result;
 }
 console.log(match(['🍌', '🥝', '🍇'], ['🍌', '🍓', '🍇', '🍓']));

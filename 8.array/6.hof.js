@@ -2,7 +2,7 @@ const fruits = ['🍌', '🍓', '🍇', '🍓'];
 
 // 배열을 빙글 빙글 돌면서 원하는것(콜백함수)을 할때
 fruits.forEach(function (value) {
-  console.log(value);
+	console.log(value);
 });
 fruits.forEach((value) => console.log(value));
 
@@ -39,12 +39,12 @@ result = nums.map((item) => item * 2);
 console.log(result);
 
 result = nums.map((item) => {
-  if (item % 2 === 0) {
-    return item * 2;
-  } else {
-    return item;
-  }
-  item * 2;
+	if (item % 2 === 0) {
+		return item * 2;
+	} else {
+		return item;
+	}
+	item * 2;
 });
 console.log(result);
 
