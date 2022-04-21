@@ -18,5 +18,5 @@ let greetings = "'안녕!, " + id + "🤚\n즐거운 하루 보내요!'";
 console.log(greetings);
 
 greetings = `'안녕, ${id}🤚
-즐거운 하루 보내요!'`
+즐거운 하루 보내요!'`;
 console.log(greetings);

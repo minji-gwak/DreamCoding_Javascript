@@ -6,8 +6,9 @@ console.log(a);
 console.log(b);
 
 // 객체 타입은 참조값(메모리 주소, 레퍼런스)가 복사되어 전달됨
-let apple = { // 0x1234
-    name: '사과',
+let apple = {
+	// 0x1234
+	name: '사과',
 };
 let orange = apple; // 0x1234
 orange.name = '오렌지';

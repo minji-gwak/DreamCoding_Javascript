@@ -3,7 +3,7 @@
 let variable;
 console.log(typeof variable);
 
-variable = ''
+variable = '';
 console.log(typeof variable);
 
 variable = 123; // 할당된 값에 따라 타입이 결정됨!

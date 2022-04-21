@@ -13,9 +13,9 @@ const MAX_FRUITS = 3;
 
 // 2. 재할당 불가능한 상수변수 또는 변수
 const apple = {
-    name: 'apple',
-    color: 'red',
-    display: '🇺🍎'
+	name: 'apple',
+	color: 'red',
+	display: '🇺🍎',
 };
 // apple = {};
 console.log(apple);
