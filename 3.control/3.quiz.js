@@ -4,9 +4,9 @@ let num = 2;
 
 // if
 if (num % 2 === 0) {
-  console.log('👍');
+	console.log('👍');
 } else {
-  console.log('👎');
+	console.log('👎');
 }
 
 // ternary

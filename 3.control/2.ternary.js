@@ -2,11 +2,11 @@
 // 조건식 ? 참인경우 : 거짓인경우
 let fruit = 'orange';
 if (fruit === 'apple') {
-  console.log('🍎');
+	console.log('🍎');
 } else if (fruit === 'orange') {
-  console.log('🍊');
+	console.log('🍊');
 } else {
-  console.log('😜');
+	console.log('😜');
 }
 fruit === 'apple' ? console.log('🍎') : console.log('😜');
 
